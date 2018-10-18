@@ -1,0 +1,88 @@
+
+body {
+	font: 1.5em/1.3 'Open Sans', sans-serif;
+	background: white;
+	color: #e91e63 !important;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Arial 27px', serif;
+	line-height: 1;
+	margin: 0;
+}
+
+h2 {
+	font-size: 4em;
+
+}
+h3 {
+	font-size: 3em;
+}
+p {
+	color: darkblue;
+}
+a {
+	color: #e91e63 !important;
+}
+a:hover, a:focus {
+	color: goldenrod;
+	text-decoration: underline;
+}
+
+.container-title, .row-result-title, .row-saved-title {
+	background:#e91e63 !important;
+	color: white;
+	padding: 3em;
+}
+.container-title .row, .container-title .col {
+	padding: 0;
+	margin: 0;
+}
+label {
+	font-family: 'Arial 27px', serif;
+}
+input {
+	padding: 0.25em;
+	margin: 0.25em 0 0 0;
+	color: #444;
+}
+
+.btn-this {
+	font-family: 'Arial 27px', serif;
+	background: #e91e63 !important;
+	color: white;
+}
+.btn-this:hover {
+	color: gold;
+}
+
+.row-search-title {
+	padding: 2em 0;
+}
+.row-search-results {
+	padding: 0 0 2em 0;
+}
+.col-search-title {
+	margin: 0;
+}
+.col-result-body {
+	margin: 0.25em;
+	padding: 0.5em;
+	width: calc(25% - 0.5em);
+}
+@media screen and (max-width: 800px) and (min-width: 700px) {
+	.col-result-body {
+		width: calc(33% - 0.5em);
+	}
+}
+@media screen and (max-width: 699px) {
+	.col-result-body {
+		width: calc(100% - 0.5em);
+	}
+}
+.col-result-body:hover {
+	background: rgba(207, 173, 207, 1);
+}
+.btn-save {
+	text-align: center;
+}
